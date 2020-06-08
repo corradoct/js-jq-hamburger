@@ -1,4 +1,4 @@
-$('i.fa-bars').click(
+$('div.header-right > a[href]').click(
   function () {
     $('div.hamburger-menu').addClass('active');
   }
